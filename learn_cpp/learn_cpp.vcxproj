@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="in_out_put.cpp" />
+    <ClCompile Include="test_敲桌子.cpp" />
+    <ClCompile Include="乘法口诀表.cpp" />
+    <ClCompile Include="new.cpp" />
+    <ClCompile Include="引用.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

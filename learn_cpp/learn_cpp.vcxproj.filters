@@ -13,10 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\base_c">
+      <UniqueIdentifier>{89d2cdc2-bc03-4c63-9b56-dc226c7ed12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\new_cpp">
+      <UniqueIdentifier>{bf3beccb-dae3-4434-a20d-28dc5ce82396}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="in_out_put.cpp">
+      <Filter>源文件\base_c</Filter>
+    </ClCompile>
+    <ClCompile Include="test_敲桌子.cpp">
+      <Filter>源文件\base_c</Filter>
+    </ClCompile>
+    <ClCompile Include="乘法口诀表.cpp">
+      <Filter>源文件\base_c</Filter>
+    </ClCompile>
+    <ClCompile Include="new.cpp">
+      <Filter>源文件\new_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="引用.cpp">
+      <Filter>源文件\new_cpp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
