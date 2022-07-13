@@ -19,6 +19,9 @@
     <Filter Include="源文件\new_cpp">
       <UniqueIdentifier>{bf3beccb-dae3-4434-a20d-28dc5ce82396}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\real_cpp">
+      <UniqueIdentifier>{9061ee06-f427-46ce-9a9d-06a5269c38f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="in_out_put.cpp">
@@ -38,6 +41,9 @@
     </ClCompile>
     <ClCompile Include="函数提高.cpp">
       <Filter>源文件\new_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="chongzai.cpp">
+      <Filter>源文件\real_cpp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

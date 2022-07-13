@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chongzai.cpp" />
     <ClCompile Include="in_out_put.cpp" />
     <ClCompile Include="test_敲桌子.cpp" />
     <ClCompile Include="乘法口诀表.cpp" />
