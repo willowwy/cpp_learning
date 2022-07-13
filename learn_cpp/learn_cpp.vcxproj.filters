@@ -36,5 +36,8 @@
     <ClCompile Include="引用.cpp">
       <Filter>源文件\new_cpp</Filter>
     </ClCompile>
+    <ClCompile Include="函数提高.cpp">
+      <Filter>源文件\new_cpp</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
