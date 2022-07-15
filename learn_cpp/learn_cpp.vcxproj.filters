@@ -42,13 +42,16 @@
     <ClCompile Include="函数提高.cpp">
       <Filter>源文件\new_cpp</Filter>
     </ClCompile>
-    <ClCompile Include="chongzai.cpp">
+    <ClCompile Include="重载.cpp">
       <Filter>源文件\real_cpp</Filter>
     </ClCompile>
-    <ClCompile Include="duixiang.cpp">
+    <ClCompile Include="对象.cpp">
       <Filter>源文件\real_cpp</Filter>
     </ClCompile>
     <ClCompile Include="封装.cpp">
+      <Filter>源文件\real_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="test_立方体类.cpp">
       <Filter>源文件\real_cpp</Filter>
     </ClCompile>
   </ItemGroup>
