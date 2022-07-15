@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="chongzai.cpp" />
+    <ClCompile Include="duixiang.cpp" />
     <ClCompile Include="in_out_put.cpp" />
     <ClCompile Include="test_敲桌子.cpp" />
     <ClCompile Include="乘法口诀表.cpp" />
     <ClCompile Include="new.cpp" />
     <ClCompile Include="函数提高.cpp" />
+    <ClCompile Include="封装.cpp" />
     <ClCompile Include="引用.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

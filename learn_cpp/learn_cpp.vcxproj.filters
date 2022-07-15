@@ -45,5 +45,11 @@
     <ClCompile Include="chongzai.cpp">
       <Filter>源文件\real_cpp</Filter>
     </ClCompile>
+    <ClCompile Include="duixiang.cpp">
+      <Filter>源文件\real_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="封装.cpp">
+      <Filter>源文件\real_cpp</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
