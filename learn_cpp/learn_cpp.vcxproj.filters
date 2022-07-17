@@ -22,6 +22,18 @@
     <Filter Include="源文件\real_cpp">
       <UniqueIdentifier>{9061ee06-f427-46ce-9a9d-06a5269c38f5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\real_cpp\test_点和圆的关系">
+      <UniqueIdentifier>{5b9805a1-5d83-4d11-86e6-1c981d3b22c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\real_cpp\test_立方体类">
+      <UniqueIdentifier>{ef52a26c-b0c0-4bed-824a-b374f4109fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\real_cpp\对象初始化与清理">
+      <UniqueIdentifier>{104bbc53-e930-4bed-9a1b-4b08331a7e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\real_cpp\对象、封装、重载">
+      <UniqueIdentifier>{e9070122-cc0c-45ca-8e57-7d90c39caa45}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="in_out_put.cpp">
@@ -42,17 +54,31 @@
     <ClCompile Include="函数提高.cpp">
       <Filter>源文件\new_cpp</Filter>
     </ClCompile>
-    <ClCompile Include="重载.cpp">
-      <Filter>源文件\real_cpp</Filter>
+    <ClCompile Include="test_点和圆的关系.cpp">
+      <Filter>源文件\real_cpp\test_点和圆的关系</Filter>
     </ClCompile>
-    <ClCompile Include="对象.cpp">
-      <Filter>源文件\real_cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="封装.cpp">
-      <Filter>源文件\real_cpp</Filter>
+    <ClCompile Include="point.cpp">
+      <Filter>源文件\real_cpp\test_点和圆的关系</Filter>
     </ClCompile>
     <ClCompile Include="test_立方体类.cpp">
-      <Filter>源文件\real_cpp</Filter>
+      <Filter>源文件\real_cpp\test_立方体类</Filter>
     </ClCompile>
+    <ClCompile Include="构造与析构.cpp">
+      <Filter>源文件\real_cpp\对象初始化与清理</Filter>
+    </ClCompile>
+    <ClCompile Include="重载.cpp">
+      <Filter>源文件\real_cpp\对象、封装、重载</Filter>
+    </ClCompile>
+    <ClCompile Include="对象.cpp">
+      <Filter>源文件\real_cpp\对象、封装、重载</Filter>
+    </ClCompile>
+    <ClCompile Include="封装.cpp">
+      <Filter>源文件\real_cpp\对象、封装、重载</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="point.h">
+      <Filter>源文件\real_cpp\test_点和圆的关系</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

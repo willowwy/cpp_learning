@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="point.cpp" />
+    <ClCompile Include="test_点和圆的关系.cpp" />
     <ClCompile Include="test_立方体类.cpp" />
+    <ClCompile Include="构造与析构.cpp" />
     <ClCompile Include="重载.cpp" />
     <ClCompile Include="对象.cpp" />
     <ClCompile Include="in_out_put.cpp" />
@@ -137,6 +140,9 @@
     <ClCompile Include="函数提高.cpp" />
     <ClCompile Include="封装.cpp" />
     <ClCompile Include="引用.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
