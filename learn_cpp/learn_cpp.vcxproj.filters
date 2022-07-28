@@ -63,7 +63,7 @@
     <ClCompile Include="test_立方体类.cpp">
       <Filter>源文件\real_cpp\test_立方体类</Filter>
     </ClCompile>
-    <ClCompile Include="构造与析构.cpp">
+    <ClCompile Include="4.2.1构造与析构.cpp">
       <Filter>源文件\real_cpp\对象初始化与清理</Filter>
     </ClCompile>
     <ClCompile Include="重载.cpp">
@@ -74,6 +74,12 @@
     </ClCompile>
     <ClCompile Include="封装.cpp">
       <Filter>源文件\real_cpp\对象、封装、重载</Filter>
+    </ClCompile>
+    <ClCompile Include="4.2.2分类及调用.cpp">
+      <Filter>源文件\real_cpp\对象初始化与清理</Filter>
+    </ClCompile>
+    <ClCompile Include="4.2.3拷贝函数调用时机.cpp">
+      <Filter>源文件\real_cpp\对象初始化与清理</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
