@@ -128,11 +128,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="4.2.3拷贝函数调用时机.cpp" />
+    <ClCompile Include="4.2.6初始化列表.cpp" />
+    <ClCompile Include="4.2.8静态成员.cpp" />
+    <ClCompile Include="4.2.9静态成员函数.cpp" />
+    <ClCompile Include="4.3.1成员变量和成员函数分开存储.cpp" />
+    <ClCompile Include="4.3.3空指针访问成员函数.cpp" />
+    <ClCompile Include="4.3.4 const修饰成员函数.cpp" />
     <ClCompile Include="point.cpp" />
     <ClCompile Include="test_点和圆的关系.cpp" />
     <ClCompile Include="test_立方体类.cpp" />
     <ClCompile Include="4.2.2分类及调用.cpp" />
     <ClCompile Include="4.2.1构造与析构.cpp" />
+    <ClCompile Include="4.2.4构造函数调用规则.cpp" />
+    <ClCompile Include="4.2.5深拷贝浅拷贝.cpp" />
+    <ClCompile Include="4.2.7类对象作为类成员.cpp" />
+    <ClCompile Include="4.3.2this指针.cpp" />
+    <ClCompile Include="字符串string.cpp" />
     <ClCompile Include="重载.cpp" />
     <ClCompile Include="对象.cpp" />
     <ClCompile Include="in_out_put.cpp" />

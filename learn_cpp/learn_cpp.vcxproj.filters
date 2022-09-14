@@ -34,6 +34,9 @@
     <Filter Include="源文件\real_cpp\对象、封装、重载">
       <UniqueIdentifier>{e9070122-cc0c-45ca-8e57-7d90c39caa45}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\real_cpp\C++对象模型和this指针">
+      <UniqueIdentifier>{0bf066da-ec50-4f8f-9cc6-98125bc15824}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="in_out_put.cpp">
@@ -80,6 +83,39 @@
     </ClCompile>
     <ClCompile Include="4.2.3拷贝函数调用时机.cpp">
       <Filter>源文件\real_cpp\对象初始化与清理</Filter>
+    </ClCompile>
+    <ClCompile Include="4.2.4构造函数调用规则.cpp">
+      <Filter>源文件\real_cpp\对象初始化与清理</Filter>
+    </ClCompile>
+    <ClCompile Include="4.2.5深拷贝浅拷贝.cpp">
+      <Filter>源文件\real_cpp\对象初始化与清理</Filter>
+    </ClCompile>
+    <ClCompile Include="4.2.6初始化列表.cpp">
+      <Filter>源文件\real_cpp\对象初始化与清理</Filter>
+    </ClCompile>
+    <ClCompile Include="4.2.7类对象作为类成员.cpp">
+      <Filter>源文件\real_cpp\对象初始化与清理</Filter>
+    </ClCompile>
+    <ClCompile Include="4.2.8静态成员.cpp">
+      <Filter>源文件\real_cpp\对象初始化与清理</Filter>
+    </ClCompile>
+    <ClCompile Include="4.2.9静态成员函数.cpp">
+      <Filter>源文件\real_cpp\对象初始化与清理</Filter>
+    </ClCompile>
+    <ClCompile Include="4.3.1成员变量和成员函数分开存储.cpp">
+      <Filter>源文件\real_cpp\C++对象模型和this指针</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串string.cpp">
+      <Filter>源文件\new_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="4.3.2this指针.cpp">
+      <Filter>源文件\real_cpp\C++对象模型和this指针</Filter>
+    </ClCompile>
+    <ClCompile Include="4.3.3空指针访问成员函数.cpp">
+      <Filter>源文件\real_cpp\C++对象模型和this指针</Filter>
+    </ClCompile>
+    <ClCompile Include="4.3.4 const修饰成员函数.cpp">
+      <Filter>源文件\real_cpp\C++对象模型和this指针</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

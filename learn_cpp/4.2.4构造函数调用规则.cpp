@@ -2,14 +2,23 @@
 //#include<string>
 //using namespace std;
 //
+////默认情况下，c++至少给一个类添加3个函数
+////1.默认构造函数（无参，函数体为空）
+////2.默认析构函数（无参，函数体为空）
+////3.默认拷贝构造函数，对属性值进行拷贝
+//
+////调用规则如下：
+////·若用户自定义有参构造函数，则c++不再提供默认无参构造，但有默认拷贝
+////·若用户自定义拷贝构造函数，则c++不再提供其他构造函数
+//
 //class Person
 //{
 //public:
-//	Person()
+//	/*Person()
 //	{
 //		cout << "Person默认构造函数调用" << endl;
-//	}
-//	
+//	}*/
+//
 //	Person(int age)
 //	{
 //		cout << "Person有参函数调用" << endl;
@@ -30,47 +39,25 @@
 //	int m_Age;
 //};
 //
-////1.使用一个已经创造完毕的对象来初始化一个新对象
 //void test01()
 //{
-//	Person p1(20);
-//	Person p2(p1);
+//	Person p;
+//	p.m_Age = 18;
+//
+//	Person p2(p);
 //	cout << "p2的年龄为：" << p2.m_Age << endl;
 //}
 //
-////2.值传递的方式给函数参数传值
-////会调用拷贝函数，拷贝一个新的值出来进行值传递
-//void dowork(Person p)
-//{
 //
-//}
 //void test02()
 //{
 //	Person p;
-//	dowork(p);
-//}
-//
-////3.值方式返回局部对象
-////根据局部变量拷贝一个新的值
-//Person dowork2()
-//{
-//	Person p1;
-//	cout << (int*) & p1 << endl;
-//	return p1;
-//}
-//void test03()
-//{
-//	Person p=dowork2();
-//	cout << (int*)&p << endl;
 //	return;
 //}
-//
-//
 //int main()
 //{
 //	//test01();
-//	//test02();
-//	test03();
+//
 //	system("pause");
 //	return 0;
 //}
