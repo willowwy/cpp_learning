@@ -37,6 +37,9 @@
     <Filter Include="源文件\real_cpp\C++对象模型和this指针">
       <UniqueIdentifier>{0bf066da-ec50-4f8f-9cc6-98125bc15824}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\real_cpp\友元">
+      <UniqueIdentifier>{b4a7f5b3-9c05-4b68-bf8d-40607dd9b321}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="in_out_put.cpp">
@@ -116,6 +119,15 @@
     </ClCompile>
     <ClCompile Include="4.3.4 const修饰成员函数.cpp">
       <Filter>源文件\real_cpp\C++对象模型和this指针</Filter>
+    </ClCompile>
+    <ClCompile Include="4.4.1全局函数作友元.cpp">
+      <Filter>源文件\real_cpp\友元</Filter>
+    </ClCompile>
+    <ClCompile Include="4.4.2类作友元.cpp">
+      <Filter>源文件\real_cpp\友元</Filter>
+    </ClCompile>
+    <ClCompile Include="4.4.3成员函数做友元.cpp">
+      <Filter>源文件\real_cpp\友元</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
