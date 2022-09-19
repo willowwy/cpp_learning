@@ -1,4 +1,4 @@
-////与非静态相同
+////与非静态相同。
 //#include <iostream>
 //using namespace std;
 //class Base
