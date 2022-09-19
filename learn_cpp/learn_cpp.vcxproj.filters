@@ -43,6 +43,9 @@
     <Filter Include="源文件\real_cpp\运算符重载">
       <UniqueIdentifier>{6a820e20-4978-4fdf-95fc-c79fe4fa1e92}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\real_cpp\继承">
+      <UniqueIdentifier>{c91dd326-4169-4983-b7e6-2bbade4ec12f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="in_out_put.cpp">
@@ -144,10 +147,37 @@
     <ClCompile Include="4.5.4赋值运算符重载.cpp">
       <Filter>源文件\real_cpp\运算符重载</Filter>
     </ClCompile>
+    <ClCompile Include="4.5.5关系运算符重载.cpp">
+      <Filter>源文件\real_cpp\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="4.5.6函数调用运算符重载.cpp">
+      <Filter>源文件\real_cpp\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="4.6.1基本语法.cpp">
+      <Filter>源文件\real_cpp\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="4.6.2继承方式.cpp">
+      <Filter>源文件\real_cpp\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="4.6.3继承中的对象模型.cpp">
+      <Filter>源文件\real_cpp\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="4.6.4继承中构造和析构顺序.cpp">
+      <Filter>源文件\real_cpp\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="4.6.5继承同名成员处理方式.cpp">
+      <Filter>源文件\real_cpp\继承</Filter>
+    </ClCompile>
+    <ClCompile Include="4.6.6继承中同名静态成员的处理方式.cpp">
+      <Filter>源文件\real_cpp\继承</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="point.h">
       <Filter>源文件\real_cpp\test_点和圆的关系</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
