@@ -136,6 +136,10 @@
     <ClCompile Include="4.3.4 const修饰成员函数.cpp" />
     <ClCompile Include="4.4.1全局函数作友元.cpp" />
     <ClCompile Include="4.4.2类作友元.cpp" />
+    <ClCompile Include="4.5.1加号运算符重载.cpp" />
+    <ClCompile Include="4.5.2左移运算符重载.cpp" />
+    <ClCompile Include="4.5.3递增运算符重载.cpp" />
+    <ClCompile Include="4.5.4赋值运算符重载.cpp" />
     <ClCompile Include="point.cpp" />
     <ClCompile Include="test_点和圆的关系.cpp" />
     <ClCompile Include="test_立方体类.cpp" />

@@ -40,6 +40,9 @@
     <Filter Include="源文件\real_cpp\友元">
       <UniqueIdentifier>{b4a7f5b3-9c05-4b68-bf8d-40607dd9b321}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\real_cpp\运算符重载">
+      <UniqueIdentifier>{6a820e20-4978-4fdf-95fc-c79fe4fa1e92}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="in_out_put.cpp">
@@ -128,6 +131,18 @@
     </ClCompile>
     <ClCompile Include="4.4.3成员函数做友元.cpp">
       <Filter>源文件\real_cpp\友元</Filter>
+    </ClCompile>
+    <ClCompile Include="4.5.1加号运算符重载.cpp">
+      <Filter>源文件\real_cpp\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="4.5.2左移运算符重载.cpp">
+      <Filter>源文件\real_cpp\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="4.5.3递增运算符重载.cpp">
+      <Filter>源文件\real_cpp\运算符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="4.5.4赋值运算符重载.cpp">
+      <Filter>源文件\real_cpp\运算符重载</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

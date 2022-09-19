@@ -34,7 +34,7 @@
 //	cout << "Badgay全局函数 正在访问：" << building.m_SittingRoom << endl;
 //	//cout << "Badgay全局函数 正在访问" << building.m_Bedroom << endl;//未友好声明，无法访问private
 //}
-//
+//1
 //void test01()
 //{
 //	Building building;//已经初始化过了
